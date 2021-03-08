@@ -15,4 +15,3 @@ Array.prototype.remove = function(tail) {
 assertEqual(2,3);
 assertEqual(this.length, 2);
 
-module.export = assertEqual;
