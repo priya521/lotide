@@ -1,3 +1,4 @@
+
 const assertEqual = require('../assertEqual');
 
 function eqArrays(arr1,arr2) {
@@ -21,5 +22,3 @@ console.log(eqArrays([1], ['1']));
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
 assertEqual(eqArrays([1, 2, 4], [1, 2, 3]), true);
 assertEqual(eqArrays(['a','b'], [1, 2, 3]), true);
-
-module.export = assertEqual;
